@@ -59,83 +59,83 @@ public class speed_calculation extends AppCompatActivity {
                         if (tv_TU.getText().toString().equals(val[0])) {
                             et_Tu.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_Tu.setText(celciusToFarenheit(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpsToMphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_Tu.setText(celciusToKelvin(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpsToMpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_Tu.setText(celciusToRankine(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpsToKmphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_Tu.setText(celciusToNewton(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpsToKmpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_Tu.setText(celciusToDelisle(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpsTokmpsec(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[1])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_Tu.setText(fahrenheitToCelcius(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mphrToMphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
                             et_Tu.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_Tu.setText(fahrenheitToKelvin(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mphrTompmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_Tu.setText(fahrenheitToRankine(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mphrToKmpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_Tu.setText(fahrenheitToNewton(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mphrToKmphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_Tu.setText(fahrenheitToDelisle(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mphrToKmpsec(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[2])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_Tu.setText(kelvinToCelcius(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpminToMpsec(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_Tu.setText(kelvinToFahrenheit(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpminToMphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
                             et_Tu.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_Tu.setText(kelvinToRankine(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpminToKmphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_Tu.setText(kelvinToNewton(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpminToKmpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_Tu.setText(kelvinToDelisle(Double.parseDouble(tempInput)));
+                            et_Tu.setText(mpminToKmps(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[3])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_Tu.setText(rankineToCelcius(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmphrToMpsec(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_Tu.setText(rankineToFahrenheit(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmphrTomphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_Tu.setText(rankineToKelvin(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmphrToMpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
                             et_Tu.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_Tu.setText(rankineToNewton(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmphrToKmpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_Tu.setText(rankineToDelisle(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmphrToKmpsec(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[4])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_Tu.setText(newtonToCelcius(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmpminToMpsec(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_Tu.setText(newtonToFahrenheit(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmpminToMphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_Tu.setText(newtonToKelvin(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmpminToMpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_Tu.setText(newtonToRankine(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmpminToKmphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
                             et_Tu.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_Tu.setText(newtonToDelisle(Double.parseDouble(tempInput)));
+                            et_Tu.setText(kmpminToKmpsec(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[5])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_Tu.setText(delisleToCelcius(Double.parseDouble(tempInput)));
+                            et_Tu.setText(KmpsecTOMpsec(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_Tu.setText(delisleToFahrenheit(Double.parseDouble(tempInput)));
+                            et_Tu.setText(KmpsecTOMphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_Tu.setText(delisleToKelvin(Double.parseDouble(tempInput)));
+                            et_Tu.setText(KmpsecTOMpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_Tu.setText(delisleToRankine(Double.parseDouble(tempInput)));
+                            et_Tu.setText(KmpsecTOKmphr(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_Tu.setText(delisleToNewton(Double.parseDouble(tempInput)));
+                            et_Tu.setText(KmpsecTOKmpmin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
                             et_Tu.setText(tempInput);
                         }
@@ -185,7 +185,7 @@ public class speed_calculation extends AppCompatActivity {
 
                 AlertDialog dialog = builder.create();
 
-                // Finally, display the alert dialog
+
                 dialog.show();
 
             }
@@ -241,159 +241,167 @@ public class speed_calculation extends AppCompatActivity {
     }
 
     //meter/second
-    private String celciusToKelvin(double celsius) {
-        double kelvin = celsius *3600;
-        return String.valueOf(kelvin);
+
+    private String mpsToMphr(double mps) {
+        double mphr= mps* 3600;
+        return String.valueOf(mphr);
     }
 
-    private String celciusToRankine(double celsius) {
-        double rankine = celsius *60;
-        return String.valueOf(rankine);
+    private String mpsToMpmin(double mps) {
+        double mpmin= mps *60;
+        return String.valueOf(mpmin);
     }
 
-    private String celciusToNewton(double celsius) {
-        double newton = celsius * 3.6;
-        return String.valueOf(newton);
+    private String mpsToKmphr(double mps) {
+        double kmphr = mps *3.6;
+        return String.valueOf(kmphr);
     }
 
-    private String celciusToDelisle(double celsius) {
-        double delisle = celsius / 16.667;
-        return String.valueOf(delisle);
+    private String mpsToKmpmin(double mps) {
+        double kmpmin = mps * 0.06;
+        return String.valueOf(kmpmin);
     }
 
-    private String celciusToFarenheit(double celsius) {
-        double fahrenheit = celsius/1000;
-        return String.valueOf(fahrenheit);
+    private String mpsTokmpsec(double mps) {
+        double kmpsec = mps / 1000;
+        return String.valueOf(kmpsec);
     }
 
-    //fahrenheit
-    private String fahrenheitToKelvin(double fahrenheit) {
-        double kelvin = fahrenheit/60;
-        return String.valueOf(kelvin);
+
+
+    //meter/hour
+
+    private String mphrToMphr(double mphr) {
+        double mpsec = mphr/3600;
+        return String.valueOf(mpsec);
     }
 
-    private String fahrenheitToRankine(double fahrenheit) {
-        double rankine = fahrenheit /1000;
-        return String.valueOf(rankine);
+    private String mphrTompmin(double mphr) {
+        double mpmin= mphr/60;
+        return String.valueOf(mpmin);
     }
 
-    private String fahrenheitToNewton(double fahrenheit) {
-        double newton = fahrenheit/60000;
-        return String.valueOf(newton);
+    private String mphrToKmphr(double mphr) {
+        double kmphr = mphr*1.6667e-5;
+        return String.valueOf(kmphr);
+    }
+    private String mphrToKmpmin(double mphr) {
+        double kmpmin = mphr/1000;
+        return String.valueOf(kmpmin);
     }
 
-    private String fahrenheitToDelisle(double fahrenheit) {
-        double delisle = fahrenheit/3.6e+6;
-        return String.valueOf(delisle);
+    private String mphrToKmpsec(double mphr) {
+        double kmpsec = mphr*2.7778e-7;
+        return String.valueOf(kmpsec);
     }
 
-    private String fahrenheitToCelcius(double fahrenheit) {
-        double celcius = fahrenheit/3600;
-        return String.valueOf(celcius);
+
+
+    //meter/min
+    private String mpminToMpsec(double mpmin) {
+        double mpsec = mpmin/60;
+        return String.valueOf(mpsec);
     }
 
-    //Kelvin
-    private String kelvinToRankine(double kelvin) {
-        double rankine = kelvin /16.667;
-        return String.valueOf(rankine);
+    private String mpminToMphr(double mpmin) {
+        double mphr= mpmin*60;
+        return String.valueOf(mphr);
+    }
+    private String mpminToKmphr(double mpmin) {
+        double kmphr = mpmin/16.667;
+        return String.valueOf(kmphr);
     }
 
-    private String kelvinToNewton(double kelvin) {
-        double newton = kelvin/1000;
-        return String.valueOf(newton);
+    private String mpminToKmpmin(double mpmin) {
+        double kmpmin = mpmin/1000;
+        return String.valueOf(kmpmin);
     }
 
-    private String kelvinToDelisle(double kelvin) {
-        double delisle = kelvin/60000;
-        return String.valueOf(delisle);
+    private String mpminToKmps(double mpmin) {
+        double kmps = mpmin/60000;
+        return String.valueOf(kmps);
     }
 
-    private String kelvinToCelcius(double kelvin) {
-        double celcius = kelvin /60;
-        return String.valueOf(celcius);
+
+
+
+
+    //kilometer/hour
+    private String kmphrToKmpmin(double kmphr) {
+        double kmpmin = kmphr/60;
+        return String.valueOf(kmpmin);
     }
 
-    private String kelvinToFahrenheit(double kelvin) {
-        double fahrenheit = kelvin*60;
-        return String.valueOf(fahrenheit);
+    private String kmphrToKmpsec(double kmphr) {
+        double kmpsec= kmphr/3600;
+        return String.valueOf(kmpsec);
     }
 
-    //Rankine
-    private String rankineToNewton(double rankine) {
-        double newton = rankine/60;
-        return String.valueOf(newton);
+    private String kmphrToMpsec(double kmphr) {
+        double mpsec= kmphr/3.6;
+        return String.valueOf(mpsec);
     }
 
-    private String rankineToDelisle(double rankine) {
-        double delisle = rankine/3600;
-        return String.valueOf(delisle);
+    private String kmphrTomphr(double kmphr) {
+        double mphr = kmphr*1000;
+        return String.valueOf(mphr);
     }
 
-    private String rankineToCelcius(double rankine) {
-        double celcius = rankine/3.6;
-        return String.valueOf(celcius);
+    private String kmphrToMpmin(double kmphr) {
+        double mpmin = kmphr * 16.667;
+        return String.valueOf(mpmin);
     }
 
-    private String rankineToFahrenheit(double rankine) {
-        double fahrenheit = rankine *1000;
-        return String.valueOf(fahrenheit);
+    //kmpmin
+    private String kmpminToKmpsec(double kmpmin) {
+        double kmpsec = kmpmin/60;
+        return String.valueOf(kmpsec);
     }
 
-    private String rankineToKelvin(double rankine) {
-        double kelvin = rankine * 16.667;
-        return String.valueOf(kelvin);
+    private String kmpminToMpsec(double kmpmin) {
+        double mpsec = kmpmin*16.667;
+        return String.valueOf(mpsec);
     }
 
-    //Newton
-    private String newtonToDelisle(double newton) {
-        double delisle = newton/60;
-        return String.valueOf(delisle);
+    private String kmpminToMphr(double kmpmin) {
+        double mphr = kmpmin*60000;
+        return String.valueOf(mphr);
     }
 
-    private String newtonToCelcius(double newton) {
-        double celcius = newton*16.667;
-        return String.valueOf(celcius);
+    private String kmpminToMpmin(double kmpmin) {
+        double mpmin= kmpmin * 1000;
+        return String.valueOf(mpmin);
     }
 
-    private String newtonToFahrenheit(double newton) {
-        double fahrenheit = newton*60000;
-        return String.valueOf(fahrenheit);
+    private String kmpminToKmphr(double kmpmin) {
+        double kmphr = kmpmin * 60 ;
+        return String.valueOf(kmphr);
     }
 
-    private String newtonToKelvin(double newton) {
-        double kelvin = newton * 1000;
-        return String.valueOf(kelvin);
+    //Kmpsec
+    private String KmpsecTOMpsec(double kmpsec) {
+        double mpsec = kmpsec*1000;
+        return String.valueOf(mpsec);
     }
 
-    private String newtonToRankine(double newton) {
-        double rankine = newton * 60 ;
-        return String.valueOf(rankine);
+    private String KmpsecTOMphr(double kmpsec) {
+        double mphr= kmpsec*3.6e+6;
+        return String.valueOf(mphr);
     }
 
-    //Delisle
-    private String delisleToCelcius(double delisle) {
-        double celcius = delisle*1000;
-        return String.valueOf(celcius);
+    private String KmpsecTOMpmin(double kmpsec) {
+        double mpmin = kmpsec*60000;
+        return String.valueOf(mpmin);
     }
 
-    private String delisleToFahrenheit(double delisle) {
-        double fahrenheit = delisle*3.6e+6;
-        return String.valueOf(fahrenheit);
+    private String KmpsecTOKmphr(double kmpsec) {
+        double kmphr = kmpsec*3600;
+        return String.valueOf(kmphr);
     }
 
-    private String delisleToKelvin(double delisle) {
-        double kelvin = delisle*60000;
-        return String.valueOf(kelvin);
-    }
-
-    private String delisleToRankine(double delisle) {
-        double rankine = delisle*3600;
-        return String.valueOf(rankine);
-    }
-
-    private String delisleToNewton(double delisle) {
-        double newton = delisle*60;
-        return String.valueOf(newton);
+    private String KmpsecTOKmpmin(double kmpsec) {
+        double kmpmin = kmpsec*60;
+        return String.valueOf(kmpmin);
     }
 
 }

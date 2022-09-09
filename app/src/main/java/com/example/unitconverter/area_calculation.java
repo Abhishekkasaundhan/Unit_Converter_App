@@ -62,77 +62,77 @@ public class area_calculation extends AppCompatActivity {
                         if (tv_TU.getText().toString().equals(val[0])) {
                             et_TU.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_TU.setText(celciusToFarenheit(Double.parseDouble(tempInput)));
+                            et_TU.setText(meterToKilometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_TU.setText(celciusToKelvin(Double.parseDouble(tempInput)));
+                            et_TU.setText(meterToHectometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_TU.setText(celciusToRankine(Double.parseDouble(tempInput)));
+                            et_TU.setText(meterToDekameter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_TU.setText(celciusToNewton(Double.parseDouble(tempInput)));
+                            et_TU.setText(meterTozDecimeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_TU.setText(celciusToDelisle(Double.parseDouble(tempInput)));
+                            et_TU.setText(meterToCentimeter(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[1])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_TU.setText(fahrenheitToCelcius(Double.parseDouble(tempInput)));
+                            et_TU.setText(kilometerToMeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
                             et_TU.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_TU.setText(fahrenheitToKelvin(Double.parseDouble(tempInput)));
+                            et_TU.setText(kilometerToHectometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_TU.setText(fahrenheitToRankine(Double.parseDouble(tempInput)));
+                            et_TU.setText(kilometerTodekameter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_TU.setText(fahrenheitToNewton(Double.parseDouble(tempInput)));
+                            et_TU.setText(kilometerToDecimeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_TU.setText(fahrenheitToDelisle(Double.parseDouble(tempInput)));
+                            et_TU.setText(kilometerToCentimeter(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[2])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_TU.setText(kelvinToCelcius(Double.parseDouble(tempInput)));
+                            et_TU.setText(hectometerToMeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_TU.setText(kelvinToFahrenheit(Double.parseDouble(tempInput)));
+                            et_TU.setText(hectometerToKilometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
                             et_TU.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[3])) {
-                            et_TU.setText(kelvinToRankine(Double.parseDouble(tempInput)));
+                            et_TU.setText(hectometerToDekameter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_TU.setText(kelvinToNewton(Double.parseDouble(tempInput)));
+                            et_TU.setText(hectometerToDecimeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_TU.setText(kelvinToDelisle(Double.parseDouble(tempInput)));
+                            et_TU.setText(hectometerToCentimeter(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[3])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_TU.setText(rankineToCelcius(Double.parseDouble(tempInput)));
+                            et_TU.setText(dekameterToMeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_TU.setText(rankineToFahrenheit(Double.parseDouble(tempInput)));
+                            et_TU.setText(dekameterToKilometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_TU.setText(rankineToKelvin(Double.parseDouble(tempInput)));
+                            et_TU.setText(dekameterToHectometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
                             et_TU.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[4])) {
-                            et_TU.setText(rankineToNewton(Double.parseDouble(tempInput)));
+                            et_TU.setText(dekameterToDecimeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_TU.setText(rankineToDelisle(Double.parseDouble(tempInput)));
+                            et_TU.setText(dekameterToCentimeter(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[4])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_TU.setText(newtonToCelcius(Double.parseDouble(tempInput)));
+                            et_TU.setText(decimeterToMeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_TU.setText(newtonToFahrenheit(Double.parseDouble(tempInput)));
+                            et_TU.setText(DecimeterToKilometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
-                            et_TU.setText(newtonToKelvin(Double.parseDouble(tempInput)));
+                            et_TU.setText(decimeterToHectometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
                             et_TU.setText(newtonToRankine(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[4])) {
                             et_TU.setText(tempInput);
                         } else if (tv_TU.getText().toString().equals(val[5])) {
-                            et_TU.setText(newtonToDelisle(Double.parseDouble(tempInput)));
+                            et_TU.setText(decimeterToCentimeter(Double.parseDouble(tempInput)));
                         }
                     } else if (tv_FU.getText().toString().equals(val[5])) {
                         if (tv_TU.getText().toString().equals(val[0])) {
-                            et_TU.setText(delisleToCelcius(Double.parseDouble(tempInput)));
+                            et_TU.setText(centimeterToMeter(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[1])) {
-                            et_TU.setText(delisleToFahrenheit(Double.parseDouble(tempInput)));
+                            et_TU.setText(centimeterToKilometer(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[2])) {
                             et_TU.setText(delisleToKelvin(Double.parseDouble(tempInput)));
                         } else if (tv_TU.getText().toString().equals(val[3])) {
@@ -242,159 +242,200 @@ public class area_calculation extends AppCompatActivity {
         });
     }
 
-    //celcius
-    private String celciusToKelvin(double celsius) {
-        double kelvin = celsius/1e+6;
+    //meter
+
+    // meter to hectometer
+    private String meterToHectometer(double meter)
+    {
+        double hectometer= meter/1e+4;
+        return String.valueOf(hectometer);
+    }
+
+    // meter to dekameter
+    private String meterToDekameter(double meter)
+    {
+        double decimeter = meter/100;
+        return String.valueOf(decimeter);
+    }
+
+    //meter to decimeter
+    private String meterTozDecimeter(double meter) {
+        double decimeter = meter *100;
+        return String.valueOf(decimeter);
+    }
+     //meter to centimeter
+    private String meterToCentimeter(double meter) {
+        double centimeter = meter*10000;
+        return String.valueOf(centimeter);
+    }
+
+    // meter to kilometer
+    private String meterToKilometer(double meter)
+    {
+        double kilometer = meter* 1e-6;
+        return String.valueOf(kilometer);
+    }
+
+    //kilometer
+
+    //kilometer to hectometer
+    private String kilometerToHectometer(double kilometer)
+    {
+        double kelvin = kilometer*100;
         return String.valueOf(kelvin);
     }
 
-    private String celciusToRankine(double celsius) {
-        double rankine = celsius /10000;
+    // kilometer to dekameter
+    private String kilometerTodekameter(double kilometer)
+    {
+        double rankine = kilometer* 10000;
         return String.valueOf(rankine);
     }
 
-    private String celciusToNewton(double celsius) {
-        double newton = celsius /100;
-        return String.valueOf(newton);
+    //kilometer to decimeter
+    private String kilometerToDecimeter(double kilometer)
+    {
+        double decimeter = kilometer*1e+8;
+        return String.valueOf(decimeter);
     }
 
-    private String celciusToDelisle(double celsius) {
-        double delisle = celsius*100;
-        return String.valueOf(delisle);
+    //kilometer to centimeter
+    private String kilometerToCentimeter(double kilometer)
+    {
+        double centimeter = kilometer*1e+10;
+        return String.valueOf(centimeter);
     }
 
-    private String celciusToFarenheit(double celsius) {
-        double fahrenheit = celsius* 10000;
-        return String.valueOf(fahrenheit);
+    //kilometer to meter
+    private String kilometerToMeter(double kilometer)
+    {
+        double meter = kilometer*1e+6;
+        return String.valueOf(meter);
     }
 
-    //fahrenheit
-    private String fahrenheitToKelvin(double fahrenheit) {
-        double kelvin = fahrenheit*100;
-        return String.valueOf(kelvin);
+    //hectometer
+    //hectometer to Dekameter
+    private String hectometerToDekameter(double hectometer)
+    {
+        double dekameter= hectometer * 100;
+        return String.valueOf(dekameter);
     }
 
-    private String fahrenheitToRankine(double fahrenheit) {
-        double rankine = fahrenheit* 10000;
-        return String.valueOf(rankine);
+    //hectometer to Decimeter
+    private String hectometerToDecimeter(double hectometer) {
+        double decimeter= hectometer*1e+6;
+        return String.valueOf(decimeter);
+    }
+    //hectometer to centimeter
+    private String hectometerToCentimeter(double hectometer) {
+        double centimeter = hectometer*1e+8;
+        return String.valueOf(centimeter);
     }
 
-    private String fahrenheitToNewton(double fahrenheit) {
-        double newton = fahrenheit*1e+8;
-        return String.valueOf(newton);
+    //hectometer to meter
+    private String hectometerToMeter(double hectometer) {
+        double meter= hectometer* 10000;
+        return String.valueOf(meter);
     }
 
-    private String fahrenheitToDelisle(double fahrenheit) {
-        double delisle = fahrenheit*1e+10;
-        return String.valueOf(delisle);
+    //hectometer to kilometer
+    private String hectometerToKilometer(double hectometer) {
+        double kilometer= hectometer/100;
+        return String.valueOf(kilometer);
     }
 
-    private String fahrenheitToCelcius(double fahrenheit) {
-        double celcius = fahrenheit*1e+6;
-        return String.valueOf(celcius);
+    //Dekameter
+    //Dekameter to Decimeter
+    private String dekameterToDecimeter(double dekameter)
+    {
+        double decimeter= dekameter*10000;
+        return String.valueOf(decimeter);
     }
 
-    //Kelvin
-    private String kelvinToRankine(double kelvin) {
-        double rankine = kelvin * 100;
-        return String.valueOf(rankine);
+    //Dekameter to centimeter
+    private String dekameterToCentimeter(double dekameter) {
+        double centimeter= dekameter*1e+6;
+        return String.valueOf(centimeter);
     }
 
-    private String kelvinToNewton(double kelvin) {
-        double newton = kelvin*1e+6;
-        return String.valueOf(newton);
+    //Dekameter to meter
+    private String dekameterToMeter(double dekameter) {
+        double meter = dekameter*100;
+        return String.valueOf(meter);
     }
 
-    private String kelvinToDelisle(double kelvin) {
-        double delisle = kelvin*1e+8;
-        return String.valueOf(delisle);
+    //Dekameter to kiloometer
+    private String dekameterToKilometer(double dekameter) {
+        double kilometer= dekameter/10000;
+        return String.valueOf(kilometer);
     }
 
-    private String kelvinToCelcius(double kelvin) {
-        double celcius = kelvin* 10000;
-        return String.valueOf(celcius);
+    //Dekameter to hectometer
+    private String dekameterToHectometer(double dekameter) {
+        double hectometer = dekameter/100;
+        return String.valueOf(hectometer);
     }
 
-    private String kelvinToFahrenheit(double kelvin) {
-        double fahrenheit = kelvin/100;
-        return String.valueOf(fahrenheit);
+    //Decimeter
+    //Decimeter to centimeter
+    private String decimeterToCentimeter(double decimeter) {
+        double centimeter = decimeter*100;
+        return String.valueOf(centimeter);
     }
 
-    //Rankine
-    private String rankineToNewton(double rankine) {
-        double newton = rankine*10000;
-        return String.valueOf(newton);
+    //Decimeter to meter
+    private String decimeterToMeter(double decimeter) {
+        double meter = decimeter/ 100 ;
+        return String.valueOf(meter);
     }
 
-    private String rankineToDelisle(double rankine) {
-        double delisle = rankine*1e+6;
-        return String.valueOf(delisle);
+    //Decimeter to kilometer
+    private String DecimeterToKilometer(double decimeter) {
+        double kilometer = decimeter/1e+8;
+        return String.valueOf(kilometer);
     }
 
-    private String rankineToCelcius(double rankine) {
-        double celcius = rankine*100;
-        return String.valueOf(celcius);
+    //Decimeter to hectometer
+    private String decimeterToHectometer(double decimeter) {
+        double hectometer = decimeter/1e+6;
+        return String.valueOf(hectometer);
     }
 
-    private String rankineToFahrenheit(double rankine) {
-        double fahrenheit = rankine /10000;
-        return String.valueOf(fahrenheit);
+    //Decimeter to dekameter
+    private String newtonToRankine(double decimeter) {
+        double dekameter = decimeter/10000;
+        return String.valueOf(dekameter);
     }
 
-    private String rankineToKelvin(double rankine) {
-        double kelvin = rankine /100;
-        return String.valueOf(kelvin);
+    //centimeter
+
+    //centimeter to meter
+    private String centimeterToMeter(double centimeter) {
+        double meter = centimeter/10000;
+        return String.valueOf(meter);
     }
 
-    //Newton
-    private String newtonToDelisle(double newton) {
-        double delisle = newton*100;
-        return String.valueOf(delisle);
+    //centimeter to kilometer
+    private String centimeterToKilometer(double centimeter) {
+        double kilometer = centimeter/1e+10;
+        return String.valueOf(kilometer);
     }
 
-    private String newtonToCelcius(double newton) {
-        double celcius = newton / 100 ;
-        return String.valueOf(celcius);
+    //centimeter to hectometer
+    private String delisleToKelvin(double centimeter) {
+        double hectometer = centimeter/1e+8;
+        return String.valueOf(hectometer);
     }
 
-    private String newtonToFahrenheit(double newton) {
-        double fahrenheit = newton /1e+8;
-        return String.valueOf(fahrenheit);
+    //centimeter to dekameter
+    private String delisleToRankine(double centimeter) {
+        double dekameter= centimeter/1e+6;
+        return String.valueOf(dekameter);
     }
 
-    private String newtonToKelvin(double newton) {
-        double kelvin = newton/1e+6;
-        return String.valueOf(kelvin);
-    }
-
-    private String newtonToRankine(double newton) {
-        double rankine = newton /10000;
-        return String.valueOf(rankine);
-    }
-
-    //Delisle
-    private String delisleToCelcius(double delisle) {
-        double celcius = delisle/10000;
-        return String.valueOf(celcius);
-    }
-
-    private String delisleToFahrenheit(double delisle) {
-        double fahrenheit = delisle/1e+10;
-        return String.valueOf(fahrenheit);
-    }
-
-    private String delisleToKelvin(double delisle) {
-        double kelvin = delisle/1e+8;
-        return String.valueOf(kelvin);
-    }
-
-    private String delisleToRankine(double delisle) {
-        double rankine = delisle/1e+6;
-        return String.valueOf(rankine);
-    }
-
-    private String delisleToNewton(double delisle) {
-        double newton = delisle/100;
-        return String.valueOf(newton);
+    //centimeter to decimeter
+    private String delisleToNewton(double centimeter) {
+        double  decimeter= centimeter/100;
+        return String.valueOf(decimeter);
     }
 }
